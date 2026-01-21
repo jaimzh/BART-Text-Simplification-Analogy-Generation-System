@@ -9,6 +9,8 @@ This project is a FastAPI-based backend server designed to simplify complex text
 - **Real-time Streaming**: Supports WebSockets for streaming text and analogy generation token-by-token.
 - **Vector Database Integration**: Uses ChromaDB for RAG-based operations.
 
+
+
 ## Installation
 
 1.  **Navigate to the server directory**:

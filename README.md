@@ -2,6 +2,12 @@
 
 This repository contains the source code for a comprehensive system designed to simplify complex text and generate analogies to aid understanding. It consists of a mobile/cross-platform client built with Flutter and a backend integration server built with Python (FastAPI).
 
+## Publication
+
+This project is the official implementation of the research published in the _International Journal of Research and Innovation in Applied Science (IJRIAS)_:
+
+> **[Development of an AI-Driven Text Simplification and Analogy Generation Platform Using a Pre-Trained BART Model](https://rsisinternational.org/journals/ijrias/view/development-of-an-ai-driven-text-simplification-and-analogy-generation-platform-using-a-pre-trained-bart-model)**
+
 ## Project Structure
 
 The project is divided into two main components:
@@ -16,6 +22,10 @@ A Python-based backend that exposes REST API and WebSocket endpoints.
   - Advanced refinement using LLMs (e.g., Llama 3.2).
   - Analogy generation for specific themes (e.g., Sports, Classroom) using RAG (Retrieval-Augmented Generation).
   - Real-time streaming via WebSockets.
+
+## System Architecture
+
+![Activity Diagram](assets/activity_diagram.png)
 
 ### 2. Client (`client/`)
 
